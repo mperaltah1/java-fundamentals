@@ -5,6 +5,8 @@ Los ciclos nos permiten repetir un bloque de instrucciones múltiples veces sin 
 ## 1. Ciclo `while` Básico: Tabla de Multiplicar
 Este algoritmo genera la tabla de un número utilizando un contador simple.
 
+Crear un nuevo paquete que se llame ciclos y que contenga una clase llamada `ImprimirTabla`.
+
 ```java
 import java.util.Scanner;
 
@@ -33,6 +35,8 @@ En Java, el ciclo for condensa estas tres cosas en una sola línea dentro de sus
 `for (inicio; limite; incremento)`.  
 
 Ejemplo: Encontrar el Número MenorEste programa pregunta cuántos números se evaluarán, pide el primer número antes del ciclo, y luego utiliza un ciclo Para empezando desde 2 para comparar el resto de los ingresos con un condicional interno.  Javaimport java.util.Scanner;
+
+Crear una nueva clase dentro del paquete llamada `NumeroMenor`.
 
 ```java
 public class NumeroMenor {
@@ -68,6 +72,8 @@ public class NumeroMenor {
 ## 3. El equivalente a `Repetir...Hasta Que`: Calcular Factorial
 
 En PSeInt, la estructura evalúa la condición al final para *detenerse* (`Hasta Que contador > numFactorial`). En Java, utilizamos `do-while`, pero la lógica se invierte: el ciclo se repite *mientras* la condición sea verdadera.
+
+Crear una nueva clase dentro del paquete llamada `CalcularFactorial`.
 
 ```java
 import java.util.Scanner;

@@ -7,6 +7,7 @@ Esta serie de ejercicios prácticos contiene algoritmos repetitivos, aprendiendo
 ## 1. Sumar N números
 Este algoritmo pide la cantidad de números a sumar y utiliza un acumulador y un contador dentro de un ciclo `Mientras`.
 
+
 ```java
 import java.util.Scanner;
 
