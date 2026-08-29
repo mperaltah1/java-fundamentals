@@ -2,40 +2,30 @@
 
 Los ciclos nos permiten repetir un bloque de instrucciones múltiples veces sin tener que escribir el código una y otra vez. En esta guía traduciremos las dos estructuras principales: el ciclo `Mientras` y el ciclo `Para`.
 
-## 1. El ciclo "Mientras" (`while`)
-En PSeInt utilizábamos `Mientras <condicion> Hacer` y finalizábamos con `Fin Mientras`. En Java, utilizamos la palabra `while` seguida de la condición entre paréntesis `( )` y las llaves `{ }` para englobar lo que se va a repetir.
-
-### Ejemplo: Sumar N números
-Este algoritmo pide la cantidad de números a sumar y utiliza un acumulador y un contador dentro de un ciclo `Mientras`.
+## 1. Ciclo `while` Básico: Tabla de Multiplicar
+Este algoritmo genera la tabla de un número utilizando un contador simple.
 
 ```java
 import java.util.Scanner;
 
-public class SumarNumeros {
+public class ImprimirTabla {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner teclado = new Scanner(System.in);
         
-        System.out.println("Ingrese la cantidad de números a sumar:");
-        int cantidad = sc.nextInt();
+        System.out.println("Escriba el numero para la tabla de multiplicar:");
+        int num = teclado.nextInt();
         
-        int contador = 1;
-        int suma = 0; // Este es nuestro acumulador
-        
-        // Ciclo While (Mientras)
-        while (contador <= cantidad) {
-            System.out.println("Ingrese el número a sumar:");
-            int num = sc.nextInt();
-            
-            suma = suma + num;
-            contador = contador + 1; // En Java también puedes escribir contador++;
+        int i = 1;
+        while (i <= 10) {
+            System.out.println(num + " x " + i + " = " + (i * num));
+            i = i + 1;
         }
-        
-        System.out.println("La suma total es: " + suma);
-        sc.close();
+        teclado.close();
     }
 }
 ```
 
+---
 ## 2. El ciclo "Para" (for)
 En PSeInt declarábamos el inicio, el fin y el incremento en palabras: Para i<-2 Hasta cantidad Con Paso 1 Hacer.
 
@@ -72,3 +62,38 @@ public class NumeroMenor {
     }
 }
 ```
+
+---
+
+## 3. El equivalente a `Repetir...Hasta Que`: Calcular Factorial
+
+En PSeInt, la estructura evalúa la condición al final para *detenerse* (`Hasta Que contador > numFactorial`). En Java, utilizamos `do-while`, pero la lógica se invierte: el ciclo se repite *mientras* la condición sea verdadera.
+
+```java
+import java.util.Scanner;
+
+public class CalcularFactorial {
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+        
+        int contador = 1;
+        int factorial = 1;
+        
+        System.out.println("Escriba un numero del cual desea obtener el factorial:");
+        int numFactorial = teclado.nextInt();
+        
+        // PSeInt: Repetir ... Hasta Que
+        do {
+            factorial = factorial * contador;
+            contador = contador + 1;
+        } while (contador <= numFactorial); // En Java, repetimos MIENTRAS sea menor o igual
+        
+        System.out.println("El factorial de " + numFactorial + " es: " + factorial);
+        teclado.close();
+    }
+}
+
+```
+
+---
+
