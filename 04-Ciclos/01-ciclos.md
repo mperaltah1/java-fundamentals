@@ -39,6 +39,8 @@ Ejemplo: Encontrar el Número MenorEste programa pregunta cuántos números se e
 Crear una nueva clase dentro del paquete llamada `NumeroMenor`.
 
 ```java
+import java.util.Scanner;
+
 public class NumeroMenor {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
