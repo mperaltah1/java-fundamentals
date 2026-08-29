@@ -1,23 +1,30 @@
-# 📚 Repositorio Docente: Laboratorios de Java (`java-labs`)
+# 💻 Java Fundamentals - Algoritmos y Programación
 
-Bóveda personal y privada para el almacenamiento, versionado y control de las guías de laboratorio del curso de Algoritmos. 
+¡Bienvenidos al repositorio oficial de fundamentos del curso! 
 
-Este repositorio contiene las instrucciones en formato Markdown (`.md`) para facilitar la transición de los estudiantes de las tres secciones desde PSeInt hacia el lenguaje Java estructurado.
+Este espacio contiene todas las guías, ejemplos de código y estructuras base que utilizaremos durante el semestre para realizar la transición desde la lógica pura (Diagramas de Flujo y PSeInt) hacia la escritura de código real en **Java**.
 
-## 🗂️ Estructura ejemplo del Material
+## 🎯 Objetivo
+El propósito de este repositorio es funcionar como tu biblioteca de consulta principal. Aquí encontrarás la traducción exacta de los algoritmos clásicos vistos en clase hacia la sintaxis de Java, permitiéndote comprender cómo se aplican las bases de la programación estructurada en un lenguaje de la industria.
 
-* **`01-introduccion/`**: Compilación nativa, uso de consola (`cmd`), variables de entorno y `HolaMundo.java`.
-* **`02-operaciones-basicas/`**: Algoritmos secuenciales, importación de `java.util.Scanner`, tipos de datos primitivos y operadores matemáticos.
+## 📂 Estructura del Material
+El contenido está organizado por unidades temáticas. Entra a cada carpeta para consultar las guías y ejemplos de código:
+
+* **`01-introduccion/`**: Configuración del entorno, compilación nativa en consola y el clásico "Hola Mundo".
+* **`02-operaciones-basicas/`**: Algoritmos secuenciales, importación de `Scanner`, tipos de datos primitivos y operadores matemáticos.
 * **`03-condicionales/`**: Toma de decisiones lógicas (`if`, `else`, `switch`).
-* **`04-ciclos/`**: Estructuras repetitivas (`while`, `do-while`, `for`), uso de contadores y acumuladores.
+* **`04-ciclos/`**: Estructuras repetitivas (`while`, `do-while`, `for`), uso de contadores, acumuladores y menús interactivos.
+* **`05-cadenas/`**: Manipulación de texto con la clase `String`.
 
-## ⚙️ Flujo de Operación y Entrega a Alumnos
+## ⚙️ Requisitos Previos
+Para poder probar estos ejemplos en tu computadora personal, asegúrate de tener instalado:
+1. **Java Development Kit (JDK):** Necesario para tener acceso a los comandos `javac` (compilador) y `java` (máquina virtual) en tu terminal.
+2. **Visual Studio Code / Bloc de Notas:** Un editor de texto plano para leer y escribir tu código fuente.
 
-Los estudiantes **no** tienen acceso a este repositorio. El proceso de entrega es el siguiente:
-1. Editar o refactorizar las instrucciones en el archivo `.md` correspondiente.
-2. En Visual Studio Code, hacer clic derecho sobre el documento.
-3. Seleccionar la opción **Markdown PDF: Export (pdf)** (utilizando la extensión de *yzane*).
-4. Distribuir el archivo `.pdf` generado a través del portal de la universidad.
+## 🚀 ¿Cómo aprovechar este material?
+1. **Lee antes de teclear:** Analiza la explicación de la sintaxis antes de intentar escribir el código en tu editor.
+2. **No copies y pegues:** Escribe el código de los ejemplos línea por línea. La memoria muscular es fundamental para aprender la sintaxis de Java (especialmente los puntos y comas `;` y las llaves `{ }`).
+3. **Experimenta:** Una vez que el ejemplo compile (`javac Archivo.java`) y se ejecute correctamente (`java Archivo`), cambia los valores, rompe el código intencionalmente y vuelve a arreglarlo. Así es como realmente se aprende.
 
-## 🔐 Notas Internas y Material Sensible
-*(Este espacio es ideal para que anotes rápidamente las soluciones de los retos, claves de calificación, o las contraseñas que asignaste a los PDFs de los exámenes, como `Maleta26*`, `Sueldo15#`, etc., para tenerlas a la mano durante el período de clase).*
+---
+> *"Si se puede imaginar, se puede programar."*
