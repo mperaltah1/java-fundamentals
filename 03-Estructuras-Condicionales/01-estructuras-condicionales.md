@@ -18,6 +18,10 @@ En PSeInt utilizábamos las palabras reservadas `Si`, `Entonces`, `SiNo` y `FinS
 **Algoritmo original en PSeInt:**
 El algoritmo solicitaba una nota, evaluaba la condición `Si nota >= 61 Entonces`, y mostraba "Aprobo" o "Reprobo" dependiendo del resultado.
 
+crear un nuevo paquete llamado `condicionales`.
+
+Crear una clase llamada Saludar.
+
 **Traducción a Java:**
 Debemos recordar importar la clase `Scanner` para poder leer el teclado y usar la estructura clásica de la clase y el método `main`.
 
