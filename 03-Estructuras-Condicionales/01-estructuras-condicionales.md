@@ -38,9 +38,9 @@ public class VerificarNota {
         
         // Estructura Condicional
         if (nota >= 61) {
-            System.out.println("Aprobó");
+            System.out.println("Aprobo");
         } else {
-            System.out.println("Reprobó");
+            System.out.println("Reprobo");
         }
         
         sc.close();
