@@ -5,7 +5,9 @@ Este programa pide dos valores reales para ejecutar cálculos.
 **Algoritmo original en PSeInt:**
 Calculaba las cuatro operaciones básicas de la siguiente manera: `suma = num1 + num2;`, `resta = num1 - num2;`, `division = num1 / num2;` y `multiplicacion = num1 * num2;`. Luego imprimía con `Escribir "Los resultados son:";`.
 
-Crearemos unnuevo paquete en nuestro proyecto llamado `operaciones`. 
+Crearemos un nuevo paquete en nuestro proyecto `JavaFundamentals` llamado `operaciones`. 
+
+De aqui en adelante utilizaremos este proyecto para las guias/laboratorios.
 
 Crear una nueva clase llamada `Operaciones`.
 
@@ -17,8 +19,6 @@ import java.util.Scanner;
 public class Operaciones {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        bzvch';'
-        ;.mnl;lkkmjjjl.m,lgnhjtluouooujkkkmkl;kh;
         // Definir num1, num2 Como Real
         double num1, num2;
         // Definir variables de resultados

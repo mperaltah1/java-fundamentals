@@ -20,7 +20,7 @@ El algoritmo solicitaba una nota, evaluaba la condición `Si nota >= 61 Entonces
 
 Crear un nuevo paquete llamado `condicionales`.
 
-Crear una clase llamada VerificarNota.
+Crear una clase llamada `VerificarNota`.
 
 **Traducción a Java:**
 Debemos recordar importar la clase `Scanner` para poder leer el teclado y usar la estructura clásica de la clase y el método `main`.
@@ -60,7 +60,7 @@ En PSeInt utilizábamos la estructura `Segun` para evaluar múltiples opciones e
 **Algoritmo original en PSeInt:**
 El algoritmo solicitaba un número de día y, según el valor, imprimía el día correspondiente del "Lunes" a "Domingo". Si el número no estaba entre 1 y 7, indicaba que el día no era válido.
 
-Dentro del mismo paquete, crear una clase llamada DiasSemana.
+Dentro del mismo paquete, crear una clase llamada `DiasSemana`.
 
 **Traducción a Java:**
 

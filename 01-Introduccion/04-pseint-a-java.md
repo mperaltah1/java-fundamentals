@@ -49,7 +49,7 @@ Solía pedir el nombre con `Escribir "Por favor ingrese su nombre";` y luego mos
 
 Ahora crearemos otro proyecto llamado `JavaFundamentals` y crear un nuevo paquete llamado `introduction`.
 
-Crear una clase llamada Saludar. Clic derecho en el paquete. New -> Java Class
+Crear una clase llamada `Saludar`. Clic derecho en el paquete. New -> Java Class
 
 **La clase debe quedar asi, sin borrar la primera linea de package**
 

@@ -17,10 +17,13 @@ En este primer bloque probaremos cómo medir una cadena, cómo extraer letras es
 *   `concat(String s)`: Retorna un `String` resultante de la unión de 2 cadenas, agregando el parámetro al final de la cadena original.
 
 ### Ejercicio Práctico 1
-Crea un archivo llamado `Cadenas.java` y copia el siguiente código:
+
+Crear un nuevo paquete llamado `cadenas`.
+
+Crea una nueva clase llamada `MetodosBasicos.java` y copia el siguiente código:
 
 ```java
-public class Cadenas {
+public class MetodosBasicos {
     public static void main(String[] args) {
         // Inicialización básica
         String umg = "UMG";
@@ -73,7 +76,7 @@ Java nos permite buscar coincidencias dentro de un texto o comparar si dos contr
 
 ### Ejercicio Práctico 2
 
-Crea un archivo llamado `ComparacionCadena.java` y copia el siguiente código:
+Dentro del mismo paquete, crea una nueva clase llamada `ComparacionCadena.java` y copia el siguiente código:
 
 ```java
 public class ComparacionCadena {
@@ -141,7 +144,7 @@ Por último, aprenderemos a modificar cadenas (sin alterar la original) y a divi
 
 ### Ejercicio Práctico 3
 
-Crea un archivo llamado `TransformacionCadena.java` y copia el siguiente código:
+Dentro del mismo paquete, crea una nueva clase llamada `TransformacionCadena.java` y copia el siguiente código:
 
 ```java
 public class TransformacionCadena {

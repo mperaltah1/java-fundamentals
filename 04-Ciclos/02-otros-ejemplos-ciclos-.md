@@ -7,6 +7,7 @@ Esta serie de ejercicios prácticos contiene algoritmos repetitivos, aprendiendo
 ## 1. Sumar N números
 Este algoritmo pide la cantidad de números a sumar y utiliza un acumulador y un contador dentro de un ciclo `Mientras`.
 
+Dentro del mismo paquete de `ciclos`, crear una clase llamada `SumarNumeros`.
 
 ```java
 import java.util.Scanner;
@@ -39,6 +40,8 @@ public class SumarNumeros {
 ## 2. Calcular Media
 
 Este programa se ejecuta indefinidamente hasta que el usuario ingresa un valor bandera (cero o negativo). Además, concatena texto en cada iteración.
+
+Dentro del mismo paquete, crear una clase llamada `CalcularMedia`.
 
 ```java
 import java.util.Scanner;
@@ -91,6 +94,8 @@ Los menús son la base de las aplicaciones de consola. Aquí tenemos dos enfoque
 ### Opción A: Salida por opción numérica (Menú de Áreas)
 
 El ciclo se mantiene vivo siempre que la opción ingresada sea distinta (`!=`) a la opción de salida (4).
+
+Dentro del mismo paquete, crear una clase llamada `CalcularAreas`.
 
 ```java
 import java.util.Scanner;
@@ -151,6 +156,8 @@ public class CalcularAreas {
 ### Opción B: Salida por confirmación de texto (Calculadora)
 
 Evalúa una variable de tipo `String` para continuar. En Java, no usamos el operador `=` para comparar textos, utilizamos el método `.equalsIgnoreCase()`.
+
+Dentro del mismo paquete, crear una clase llamada `OperacionesMenu`.
 
 ```java
 import java.util.Scanner;
