@@ -47,7 +47,7 @@ Aquí combinamos la lógica de pedir un texto al usuario y concatenarlo.
 **Algoritmo original en PSeInt:**
 Solía pedir el nombre con `Escribir "Por favor ingrese su nombre";` y luego mostrar un saludo con `Escribir "Bienvenido al sistema ", nombre;`.
 
-Ahora crearemos otro proyecto llamado `JavaFundamentals` y crear un nuevo paquete llamado `introduction`.
+Ahora crearemos otro proyecto llamado `JavaFundamentals`.
 
 Crear una clase llamada `Saludar`. Clic derecho en el paquete. New -> Java Class
 
